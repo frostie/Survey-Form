@@ -10,6 +10,10 @@
   padding: 20px;
 }
 
-h1 {
+#title {
+  text-align: center;
+}
+
+#description {
   text-align: center;
 }
