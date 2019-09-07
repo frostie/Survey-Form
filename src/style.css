@@ -13,16 +13,18 @@
 
 #title {
   text-align: center;
+  font-family: Helvetica;
 }
 
 #description {
   text-align: center;
   font-size: 20px;
+  font-family: Helvetica;
 }
 
 #survey-form {
   text-align: center;
-  
+  font-family: Helvetica;
 }
 
 #dropdown {
