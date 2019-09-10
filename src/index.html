@@ -13,33 +13,34 @@
     
     <div id="form">
       <p id="description">Let us know how our products were!</p>
+      
       <form id="survey-form">
+        <div class="rowTab">
+        <div class="labels"><label id="name-label" for="name">* Name:</label></div>
+        <div class="rightTab"><input type="text" id="name" class="field" required placeholder="Enter your full name"></div></div>
         
-        <br><div><label id="name-label" for="name">* Name: </label>
-<input type="text" id="name" class="field" required placeholder="Enter your full name"></div>
+        <br><div class="rowTab"><label id="email-label" for="email">* Email: </label><input type="email" id="email" class="field" required placeholder="Enter your email"></div>
         
-        <br><div><label id="email-label" for="email">* Email: </label><input type="email" id="email" class="field" required placeholder="Enter your email"></div>
-        
-        <br><div><label id="number-label" for="age">* Age: </label>
+        <br><div class="rowTab"><label id="number-label" for="age">* Age: </label>
 <input type="number" id="number" class="field" min="1" max="200" required placeholder="Enter your age"></div>
         
-        <br><label>Would you recommend our products?</label> 
+        <br><div class="rowTab"><label>Would you recommend our products?</label> 
         <label><input type="radio" name="userRating" value="1">Yes </label>
         <label><input type="radio" name="userRating" value="2">Maybe </label>
-        <label><input type="radio" name="userRating" value="3">No </label>
+        <label><input type="radio" name="userRating" value="3">No </label></div>
         
-        <br><br><label>What did you like most about our products?</label>
+        <br><div class="rowTab"><label>What did you like most about our products?</label>
         <label><select id="dropdown" name="mostLike"></label>
                   <option disabled selected value>Select an option</option>
                   <option value="scent">Scent</option>
                   <option value="quality">Quality</option>
                   <option value="everything">Everything</option>
-                  <option value="nothing">Nothing</option></select>
+                  <option value="nothing">Nothing</option></select></div>
           
-        <br><br><label> Things to improve:</label><br><br>
+        <br><div class="rowTab"><label> Things to improve:</label><br><br>
           <input type="checkbox" name="improve" value="One"> One<br>
           <input type="checkbox" name="improve" value="Two"> Two<br>
-          <input type="checkbox" name="improve" value="Two"> Three<br>
+          <input type="checkbox" name="improve" value="Two"> Three<br></div>
         
         <br><label for="comments"> Any comments? </label>
         <textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here"></textarea><br>
