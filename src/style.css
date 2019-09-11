@@ -42,11 +42,11 @@
 }
 
 .rowTab {
- border: solid blue 5px;
+ /* border: solid blue 5px; */
 }
 
 .labels {
-  border: solid red; /* Remove */
+  /* border: solid red; */
   display: inline-block;
   text-align: right;
   width: 40%;
@@ -56,7 +56,7 @@
 }
 
 .rightTab {
-  border: solid red; /* Remove */
+  /* border: solid red; */
   display: inline-block;
   text-align: left;
   width: 48%;
