@@ -45,17 +45,21 @@
                   <option value="scent">Scent</option>
                   <option value="quality">Quality</option>
                   <option value="everything">Everything</option>
-                  <option value="nothing">Nothing</option></select></div></div>
+                  <option value="nothing">Nothing</option></select></div>
+          </div>
           
-        <br><div class="rowTab"><label> Things to improve:</label><br><br>
-          <input type="checkbox" name="improve" value="One"> One<br>
-          <input type="checkbox" name="improve" value="Two"> Two<br>
-          <input type="checkbox" name="improve" value="Two"> Three<br></div>
+        <div class="rowTab">
+          <div class="labels">
+            <label> Things to improve:</label></div>
+            <div class="rightTab"><input type="checkbox" name="improve" value="One"> One<br>
+            <input type="checkbox" name="improve" value="Two"> Two<br>
+            <input type="checkbox" name="improve" value="Two"> Three<br></div>
+        </div>
         
-        <br><label for="comments"> Any comments? </label>
-        <textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here"></textarea><br>
-        
-        <button id="submit"> Submit </button>
+        <div class="rowTab">
+          <div class="labels"><label for="comments"> Any comments? </label></div>
+          <div class="rightTab"><textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here"></textarea>
+          <br><button id="submit"> Submit </button></div>
         
       </form>
     </div>
