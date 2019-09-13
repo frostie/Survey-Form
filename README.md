@@ -1,4 +1,4 @@
-# Survey-Form
+# Survey Form for BareBeautyBaths.com
 Project 2 in the freeCodeCamp series.
 
 ## Log
