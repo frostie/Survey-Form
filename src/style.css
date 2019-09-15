@@ -3,7 +3,7 @@
 }
 
 #form {
-  width: 70%;
+  width: 60%;
   margin: auto;
   border: 3px solid #F1F1F1;
   border-radius: 10px;
@@ -44,6 +44,10 @@
     width: 106px;
     margin: 10px;
     border: 0px solid;
+}
+
+#submit:hover {
+  background-color: pink;
 }
 
 .field {
