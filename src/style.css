@@ -12,6 +12,7 @@
   padding: 20px;
   background-color: white;
   background-image: url("https://images.unsplash.com/photo-1534003888922-a3504fa8914e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) ), url('https://images.unsplash.com/photo-1534003888922-a3504fa8914e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -47,7 +48,7 @@
     font-size: 1.3em;
     height: 50px;
     width: 106px;
-    margin: 10px;
+    margin: 0px;
     border: 0px solid;
 }
 
