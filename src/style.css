@@ -1,5 +1,6 @@
 #main {
-  background-color: white;
+  background: linear-gradient(90deg, #fcd4e8, white, #fcd4e8);
+  background-color: #fcd4e8;
 }
 
 #form {
@@ -38,7 +39,8 @@
 }
 
 #comments {
-  height: 50px;
+  height: 100px;
+  width: 80%;
 }
 
 #submit {
@@ -58,12 +60,12 @@
 
 .field {
   height: 20px;
-  width: 280px;
-  
+  width: 70%;
 }
 
 .rowTab {
  /* border: solid blue 5px; */
+  padding: 5px;
 }
 
 .labels {
