@@ -1,5 +1,5 @@
 #main {
-  background: linear-gradient(90deg, #fcd4e8, white, #fcd4e8);
+  background: linear-gradient(90deg, #fcd4e8, pink);
   background-color: #fcd4e8;
 }
 
@@ -8,6 +8,7 @@
   font-weight: bold;
   font-size: 18px;
   width: 50%;
+  min-width: 300px;
   margin: auto;
   border-radius: 10px;
   padding: 20px;
